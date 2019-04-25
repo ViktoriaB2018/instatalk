@@ -1,24 +1,15 @@
-# README
+# Instatalk
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Simple application for communication with anonymous chat
+### When you enter the site you get a unique name. You can create rooms, invite people there and communicate with them.
 
-Things you may want to cover:
+* Ruby version 2.5.3
+* Rails version 5.2.2
+* Deploy Heroku - https://insta-talk.herokuapp.com/
 
-* Ruby version
+#### Before running
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+bundle install
+bundle exec rake db:migrate
+```
