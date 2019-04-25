@@ -1,7 +1,7 @@
 # Instatalk
 
 ## Simple application for communication with anonymous chat
-### When you enter the site you get a unique name. You can create rooms, invite people there and communicate with them.
+### When you on site you get a unique name. You can create rooms, invite people there and communicate with them.
 
 * Ruby version 2.5.3
 * Rails version 5.2.2
