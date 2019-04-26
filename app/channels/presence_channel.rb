@@ -8,6 +8,10 @@ class PresenceChannel < ApplicationCable::Channel
   end
 
   def unsubscribed
+    stream_from "presence_channel"
+
     current_user.update_attribute(:online, false)
+
+    ActionCable.server.broadcast "presence_channel", users: User.online.as_json
   end
 end
